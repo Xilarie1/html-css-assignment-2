@@ -17,22 +17,46 @@
   background: hsl(31, 77%, 52%);
 }
 #Suvs {
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 0px 0px 0px 0px;
   background: hsl(184, 100%, 22%);
 }
 #Luxury {
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 0px 10px 10px 0px;
   background: hsl(179, 100%, 13%);
 }
 .Top-box {
+  display: flex;
+  height: 111px;
+  padding: 63px 198px 8px 48px;
+  align-items: center;
 }
 .Middle-box {
+  width: 310px;
+  height: 290px;
 }
 .Car-type {
+  color: #fff;
+  font-family: "Big Shoulders Display";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.4px;
 }
 .Product-description {
 }
 .Bottom-box {
+  display: flex;
+  height: 103px;
+  padding: 10px 126px 47px 47px;
+  align-items: center;
 }
 .Button-box {
+  display: flex;
+  padding: 13px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: #fff;
 }
