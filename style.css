@@ -4,6 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  display: flex;
+  width: 2689px;
+  padding: 148px 190px;
+  justify-content: center;
+  align-items: center;
+}
 #Big-box {
   display: flex;
   width: 927px;
