@@ -1,0 +1,38 @@
+/*Sedans, Suvs, Luxury, Top-box, Middle-box, Car-type, Product-description Bottom-box*, Button-box*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Border-box {
+  display: flex;
+  width: 309px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+#Sedans {
+  border-radius: 10px 0px 0px 10px;
+  background: hsl(31, 77%, 52%);
+}
+#Suvs {
+  border-radius: 10px 0px 0px 10px;
+  background: hsl(184, 100%, 22%);
+}
+#Luxury {
+  border-radius: 10px 0px 0px 10px;
+  background: hsl(179, 100%, 13%);
+}
+.Top-box {
+}
+.Middle-box {
+}
+.Car-type {
+}
+.Product-description {
+}
+.Bottom-box {
+}
+.Button-box {
+}
