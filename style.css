@@ -35,8 +35,11 @@
   height: 290px;
 }
 .Car-type {
+  width: 118px;
+  height: 63px;
+  flex-shrink: 0;
   color: #fff;
-  font-family: "Big Shoulders Display";
+  font-family: "Big Shoulders Display", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -44,6 +47,13 @@
   letter-spacing: 2.4px;
 }
 .Product-description {
+  color: #fff;
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 24.8px */
+  letter-spacing: -0.48px;
 }
 .Bottom-box {
   display: flex;
@@ -59,4 +69,11 @@
   gap: 10px;
   border-radius: 100px;
   background: #fff;
+  color: #e38523;
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
 }
