@@ -4,6 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+#Big-box {
+  display: flex;
+  width: 927px;
+  height: 504px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
 .Border-box {
   display: flex;
   width: 309px;
@@ -42,7 +51,7 @@
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 40px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
   letter-spacing: 2.4px;
 }
