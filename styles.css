@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Big-box {
+  display: flex;
+  width: 927px;
+  height: 504px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.Border-box {
+  display: flex;
+  width: 309px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-left: 48px;
+  height: 100%;
+}
+
+/* Only unique backgrounds and border-radius for each box */
+#Sedans {
+  border-radius: 10px 0 0 10px;
+  background: hsl(31, 77%, 52%);
+}
+
+#Suvs {
+  background: hsl(184, 100%, 22%);
+}
+
+#Luxury {
+  border-radius: 0 10px 10px 0;
+  background: hsl(179, 100%, 13%);
+}
+
+/* Shared style for Top-box */
+.Top-box {
+  display: flex;
+  height: 111px;
+  align-items: center;
+}
+
+.Middle-box {
+  width: 310px;
+  height: 290px;
+}
+
+.Car-type {
+  width: 118px;
+  height: 63px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  margin-bottom: 24px;
+  line-height: normal;
+}
+
+.Product-description {
+  color: #fff;
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: -0.48px;
+}
+
+.Bottom-Box {
+  display: flex;
+  height: 103px;
+  align-items: center;
+}
+
+/* Base Button-box styles */
+.Button-box {
+  display: flex;
+  padding: 13px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: #fff;
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+/* Only override the color for buttons inside specific containers */
+#Sedans .Button-box {
+  color: #e38523;
+}
+
+#Suvs .Button-box {
+  color: hsl(184, 100%, 22%);
+}
+
+#Luxury .Button-box {
+  color: hsl(179, 100%, 13%);
+}
