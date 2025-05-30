@@ -5,9 +5,9 @@
   box-sizing: border-box;
 }
 body {
+  width: 100%;
+  padding: 100px 20px;
   display: flex;
-  width: 2689px;
-  padding: 148px 190px;
   justify-content: center;
   align-items: center;
 }
@@ -61,6 +61,7 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2.4px;
+  margin-bottom: 24px;
 }
 .Product-description {
   color: #fff;
@@ -71,7 +72,7 @@ body {
   line-height: 155%; /* 24.8px */
   letter-spacing: -0.48px;
 }
-.Bottom-box {
+.Bottom-Box {
   display: flex;
   height: 103px;
   padding: 10px 126px 47px 47px;
@@ -92,4 +93,10 @@ body {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.48px;
+}
+#Suvs .Button-box {
+  color: hsl(184, 100%, 22%);
+}
+#Luxury .Button-box {
+  color: hsl(179, 100%, 13%);
 }
