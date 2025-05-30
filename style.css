@@ -1,9 +1,17 @@
-/*Sedans, Suvs, Luxury, Top-box, Middle-box, Car-type, Product-description Bottom-box*, Button-box*/
+/*body, Big-box, Border-box, Sedans, Suvs, Luxury, Top-box, Middle-box, Car-type, Product-description, Bottom-box, Button-box*/
+/*
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   width: 100%;
   padding: 100px 20px;
@@ -11,6 +19,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 #Big-box {
   display: flex;
   width: 927px;
@@ -20,6 +29,7 @@ body {
   flex-shrink: 0;
   border-radius: 10px;
 }
+
 .Border-box {
   display: flex;
   width: 309px;
@@ -27,57 +37,65 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex-shrink: 0;
+  padding-left: 48px;
+  height: 100%;
 }
+
+/*Background color and border radius*/
 #Sedans {
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0 0 10px;
   background: hsl(31, 77%, 52%);
 }
+
 #Suvs {
-  border-radius: 0px 0px 0px 0px;
   background: hsl(184, 100%, 22%);
 }
+
 #Luxury {
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0 10px 10px 0;
   background: hsl(179, 100%, 13%);
 }
+
 .Top-box {
   display: flex;
   height: 111px;
-  padding: 63px 198px 8px 48px;
   align-items: center;
 }
+
 .Middle-box {
-  width: 310px;
+  max-width: 309px;
   height: 290px;
 }
+
 .Car-type {
   width: 118px;
   height: 63px;
   flex-shrink: 0;
-  color: #fff;
+  color: hsl(0, 0%, 95%);
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 40px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.4px;
+  letter-spacing: -3px;
   margin-bottom: 24px;
+  line-height: normal;
 }
+
 .Product-description {
-  color: #fff;
+  color: hsla(0, 0%, 100%, 0.75);
   font-family: "Lexend Deca";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 155%; /* 24.8px */
+  line-height: 155%;
   letter-spacing: -0.48px;
 }
-.Bottom-Box {
+
+.Bottom-box {
   display: flex;
   height: 103px;
-  padding: 10px 126px 47px 47px;
   align-items: center;
 }
+
+/* Button Style*/
 .Button-box {
   display: flex;
   padding: 13px 26px;
@@ -86,17 +104,22 @@ body {
   gap: 10px;
   border-radius: 100px;
   background: #fff;
-  color: #e38523;
   font-family: "Lexend Deca";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.48px;
 }
+
+/* Button text color*/
+#Sedans .Button-box {
+  color: #e38523;
+}
+
 #Suvs .Button-box {
   color: hsl(184, 100%, 22%);
 }
+
 #Luxury .Button-box {
   color: hsl(179, 100%, 13%);
 }
